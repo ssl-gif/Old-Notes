@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Node节点对象</title>
+
+        <style>
+
+            div {
+                border: 2px solid red;
+            }
+
+            #div2 {
+                width: 200px;
+                height: 200px;
+            }
+
+            #div1 {
+                width: 100px;
+                height: 100px;
+            }
+
+            #div0 {
+                width: 50px;
+                height: 50px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div id="div2">
+            div2
+        </div>
+
+        <!--
+            注意：之前我们都是使用button的单击事件onclick来实现相关的点击操作，如果要使用超链接来代替button实现同样的功能，
+        a标签的href属性必须设置为："javascript:void(0);" 意味着点击超链接时不做任何跳转页面的操作
+        -->
+        <a id="add" href="javascript:void(0);">添加子节点div1</a>
+        <a id="del" href="javascript:void(0);">删除子节点div1</a>
+        <a id="rep" href="javascript:void(0);">替换子节点div1</a>
+
+        <script>
+
+            var a_add = document.getElementById("add");
+            a_add.onclick = function () {
+                var element_div2 = document.getElementById("div2");
+                var element_div1 = document.createElement("div");
+                element_div1.id = "div1"; // 提前设置好div1的id属性，用于css的样式控制，在<style>标签中有写好的id选择器在等着它呢
+                element_div1.innerHTML = "div1";
+
+                element_div2.appendChild(element_div1);
+            }
+
+            var a_del = document.getElementById("del");
+            a_del.onclick = function () {
+                var element_div1 = document.getElementById("div1");
+
+                element_div1.parentNode.removeChild(element_div1);
+            }
+
+            var a_rep = document.getElementById("rep");
+            a_rep.onclick = function () {
+                var element_div1 = document.getElementById("div1");
+                var element_div0 = document.createElement("div");
+                element_div0.id = "div0"; // 提前设置好div0的id属性，用于css的样式控制，在<style>标签中有写好的id选择器在等着它呢
+                element_div0.innerHTML = "div0";
+
+                element_div1.parentNode.replaceChild(element_div0, element_div1);
+            }
+
+        </script>
+
+    </body>
+</html>

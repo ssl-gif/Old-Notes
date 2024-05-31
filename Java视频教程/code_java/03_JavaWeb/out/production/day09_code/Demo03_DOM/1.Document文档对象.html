@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document文档对象</title>
+    </head>
+    <body>
+
+        <div id="div1">div1</div>
+        <div id="div2">div2</div>
+
+        <div class="cls1">div3</div>
+        <div class="cls1">div4</div>
+
+        <input type="text" name="username"><br/>
+
+
+        <!--获取Element元素对象的方法：-->
+        <script>
+
+            var element_div1 = document.getElementById("div1");
+            document.write(element_div1 + "：" + element_div1.innerHTML + "<br/>");
+            var element_div2 = document.getElementById("div2");
+            document.write(element_div2 + "：" + element_div2.innerHTML + "<br/>");
+
+            var elements_div1 = document.getElementsByTagName("div");
+            for (var i = 0; i < elements_div1.length; i++) {
+                document.write(elements_div1[i] + "：" + elements_div1[i].innerHTML + "<br/>");
+            }
+
+            var elements_div2 = document.getElementsByClassName("cls1");
+            document.write(elements_div2[0] + "：" + elements_div2[0].innerHTML + "<br/>");
+            document.write(elements_div2[1] + "：" + elements_div2[1].innerHTML + "<br/>");
+
+            var element_input = document.getElementsByName("username")[0]; // 可以直接在方法后面加上数组索引，来获取数组里面的值
+            document.write(element_input + "<br/>");
+
+        </script>
+
+
+        <!--创建其他DOM对象的方法：-->
+        <script>
+
+            var element = document.createElement("input");
+            var attribute = document.createAttribute("href");
+            var text = document.createTextNode("文本内容");
+            var comment = document.createComment("注释内容");
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,9 @@
+/*在外部css文件中定义css代码，来控制指定标签的样式*/
+div {
+    color: red;
+    font-size: 10px;
+}
+p {
+    color: red;
+    font-size: 20px;
+}

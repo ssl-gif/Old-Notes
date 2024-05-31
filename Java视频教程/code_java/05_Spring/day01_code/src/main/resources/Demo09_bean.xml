@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- set方法注入 -->
+    <bean id="accountService" class="Demo03_SpringIOCBasedXML.Demo03_SpringIOCDependencyInjection.service.AccountServiceImpl_02">
+        <property name="name" value="迪丽热巴"></property>
+        <property name="age" value="18"></property>
+        <property name="accountDao" ref="accountDao"></property>
+    </bean>
+    <bean id="accountDao" class="Demo03_SpringIOCBasedXML.Demo03_SpringIOCDependencyInjection.dao.AccountDaoImpl"></bean>
+
+</beans>
+
+<!--由 "package Demo03_SpringIOCBasedXML.Demo03_SpringIOCDependencyInjection.controller.Demo02_SetMethodInjection" 所加载-->

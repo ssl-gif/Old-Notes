@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Function对象</title>
+    </head>
+
+    <script>
+
+        // (1).方法对象的创建
+        var fun1 = new Function("a", "b", "return a+b;");
+
+        function fun2(a, b) {
+            return a + b;
+        }
+
+        var fun3 = function (a, b) {
+            return a + b;
+        }
+
+        // (2).方法的调用
+        var num1 = fun1(3, 4);      document.write(num1 + "<br/>"); // 7
+        var num2 = fun2(3, 4);      document.write(num2 + "<br/>"); // 7
+        var num3 = fun3(3, 4);      document.write(num3 + "<br/>"); // 7
+
+        // (3).方法对象的属性
+        document.write(fun1.length + "<br/>"); // 2
+        document.write(fun2.length + "<br/>"); // 2
+        document.write(fun3.length + "<br/>"); // 2
+
+
+
+        // #.注意：
+
+        // a.方法可以被重新赋值，并且可以定义名称相同的方法，不会报错、会覆盖
+        fun3 = function (a, b) {
+            return a - b;
+        }
+        document.write(fun3(3, 4) + "<br/>"); // -1
+
+        var fun3 = function (a, b) {
+            return a * b;
+        }
+        document.write(fun3(3, 4) + "<br/>"); // 12
+
+        // b.方法的调用只与方法的名称有关，和参数列表无关
+        var fun4 = function (a, b) {
+            document.write(a + "<br/>");
+            document.write(b + "<br/>");
+        }
+        fun4(1, 2);    // 1  2
+        fun4(1);       // 1  undefined
+        fun4(1, 2, 3); // 1  2
+
+        // c.arguments数组对象：所有传递进方法的参数都会被存入该数组中
+        function add() { // 定义一个方法求任意个数字之和
+            var sum = 0;
+            for (var i = 0; i < arguments.length; i++) {
+                sum += arguments[i];
+            }
+            return sum;
+        }
+        document.write(add(1, 2, 3, 4, 5) + "<br/>");
+        document.write(add(1, 2, 3, 4, 5, 6, 7, 8) + "<br/>");
+
+    </script>
+
+    <body>
+
+    </body>
+</html>

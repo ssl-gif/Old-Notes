@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 使用默认构造函数创建对象 -->
+    <bean id="accountService01" class="Demo03_SpringIOCBasedXML.Demo02_SpringIOCBeanObjectsManagement.service.AccountServiceImpl"></bean>
+
+    <!-- 使用工厂类中的普通方法创建对象 -->
+    <bean id="instanceFactory" class="Demo03_SpringIOCBasedXML.Demo02_SpringIOCBeanObjectsManagement.factory.InstanceFactory"></bean>
+    <bean id="accountService02" factory-bean="instanceFactory" factory-method="getAccountService"></bean>
+
+    <!-- 使用工厂类中的静态方法创建对象 -->
+    <bean id="accountService03" class="Demo03_SpringIOCBasedXML.Demo02_SpringIOCBeanObjectsManagement.factory.StaticFactory" factory-method="getAccountService"></bean>
+
+</beans>
+
+<!-- 由 "package Demo03_SpringIOCBasedXML.Demo02_SpringIOCBeanObjectsManagement.controller.Demo01_ThreeWaysToCreateBeanObjects" 所加载 -->

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>盒子模型</title>
+
+        <style>
+
+            div {
+                border: 1px solid red;
+                width: 100px;
+            }
+
+            .div1 {
+                width: 100px;
+                height: 100px;
+                margin: 50px; /*通过外边距来设置div1在div2中居中显示*/
+            }
+
+            .div2 {
+                width: 200px;
+                height: 200px;
+                padding: 50px; /*通过内边距来设置div1在div2中居中显示*/
+                box-sizing: border-box; /*设置盒子大小不发生变化*/
+            }
+
+            /*将div3设置为左浮动*/
+            .div3 {
+                float: left;
+            }
+            /*将div4设置为左浮动*/
+            .div4 {
+                float: left;
+            }
+            /*将div5设置为右浮动*/
+            .div5 {
+                float: right;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div class="div2">
+            <div class="div1"></div>
+        </div>
+
+        <br>
+
+        <div class="div3">aaaa</div>
+        <div class="div4">bbbbb</div>
+        <div class="div5">cccc</div>
+
+    </body>
+</html>

@@ -1,0 +1,276 @@
+<!--
+
+    确定使用table来完成网站首页的布局，先将其按照行来划分，确定有多少行，再确定每行内有多少个单元格。
+
+(1).如果某一行只有一个单元格，则使用如下格式：
+                    <tr>
+                        <td></td>
+                    </tr>
+
+(2).如果某一行有多个单元格，可以使用合并单元格的方式，但是由于单元格的合并比较繁琐且不灵活，一般使用如下格式：
+                    <tr>
+                        <td>
+                            <table></table>
+                        </td>
+                    </tr>
+即：将这一行看作只有一个单元格，然后在这个单元格内放入一个表格，形成表格的嵌套，灵活且可读性高。
+
+
+
+#.注意：
+    在CSS还没出现之前都是使用table来完成网页的布局，在CSS出现之后，基本都是使用"css+div"的方式来完成网页的布局。
+(注意思考一下，我们使用table完成整个网页布局的时候，这种表格嵌套思想的应用)
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>黑马旅游网</title>
+    </head>
+    <body>
+
+        <!--最外层的table，用于整个页面的布局-->
+        <table width="100%" align="center">
+
+            <!--第1行：只有一个单元格，放置一张图片即可-->
+            <tr>
+                <td>
+                    <img src="./images/top_banner.jpg" width="100%">
+                </td>
+            </tr>
+
+            <!--第2行：含有三个单元格，则里面嵌套一张表格。嵌套的表格只有一行，行内含有三个单元格，每个单元格放置一张图片-->
+            <tr>
+                <td>
+                    <table width="100%" align="center">
+                        <tr>
+                            <td>
+                                <img src="./images/logo.jpg">
+                            </td>
+                            <td>
+                                <img src="./images/search.png">
+                            </td>
+                            <td>
+                                <img src="./images/hotel_tel.png">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!--第3行：含有十个单元格，则里面嵌套一张表格。嵌套的表格只有一行，行内含有十个单元格，每个单元格放置一个超链接-->
+            <tr>
+                <td>
+                    <table width="100%" align="center">
+                        <tr bgcolor="#FFD700" align="center" height="45">
+                            <td>
+                                <a href="http://www.baidu.com" target="_blank">首页</a>
+                            </td>
+                            <td>
+                                <a href="http://www.baidu.com" target="_blank">门票</a>
+                            </td>
+                            <td>
+                                <a href="http://www.baidu.com" target="_blank">酒店</a>
+                            </td>
+                            <td>
+                                <a href="http://www.baidu.com" target="_blank">香港车票</a>
+                            </td>
+                            <td>
+                                <a href="http://www.baidu.com" target="_blank">出境游</a>
+                            </td>
+                            <td>
+                                <a href="http://www.baidu.com" target="_blank">国内游</a>
+                            </td>
+                            <td>
+                                <a href="http://www.baidu.com" target="_blank">港澳游</a>
+                            </td>
+                            <td>
+                                <a href="http://www.baidu.com" target="_blank">抱团定制</a>
+                            </td>
+                            <td>
+                                <a href="http://www.baidu.com" target="_blank">全球自由行</a>
+                            </td>
+                            <td>
+                                <a href="http://www.baidu.com" target="_blank">收藏排行榜</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!--第4行：跟第1行一样-->
+            <tr>
+                <td>
+                    <img src="./images/banner_3.jpg" width="100%">
+                </td>
+            </tr>
+
+            <!--第5行：只有一个单元格，放置一张图片、文本、一条横线-->
+            <tr>
+                <td>
+                    <img src="./images/icon_5.jpg">
+                    黑马精选
+                    <hr color="#FFD700">
+                </td>
+            </tr>
+
+            <!--第6行：含有四个单元格，则里面嵌套一张表格。嵌套的表格只有一行，行内含有四个单元格，每个单元格放置一张图片、文本-->
+            <tr>
+                <td>
+                    <table align="center" width="95%">
+                        <tr>
+                            <td>
+                                <img src="./images/jiangxuan_1.jpg">
+                                <p>上海飞三亚五天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+                                <font color="red">&yen; 899</font>
+                            </td>
+                            <td>
+                                <img src="./images/jiangxuan_1.jpg">
+                                <p>上海飞三亚五天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+                                <font color="red">&yen; 899</font>
+                            </td>
+                            <td>
+                                <img src="./images/jiangxuan_1.jpg">
+                                <p>上海飞三亚五天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+                                <font color="red">&yen; 899</font>
+                            </td>
+                            <td>
+                                <img src="./images/jiangxuan_1.jpg">
+                                <p>上海飞三亚五天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+                                <font color="red">&yen; 899</font>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!--第7行：跟第5行一样-->
+            <tr>
+                <td>
+                    <img src="./images/icon_6.jpg">
+                    国内游
+                    <hr color="#FFD700">
+                </td>
+            </tr>
+
+            <!--第8行：含有多个单元格，则里面嵌套一张表格。嵌套的表格有两行，每行内含有四个单元格，每个单元格放置一张图片、文本，并且需要对单元格进行合并-->
+            <tr>
+                <td>
+                    <table align="center" width="100%">
+                        <tr>
+                            <td rowspan="2">
+                                <img src="./images/guonei_1.jpg">
+                            </td>
+                            <td>
+                                <img src="./images/jiangxuan_2.jpg">
+                                <p>上海飞三亚五天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+                                <font color="red">&yen; 699</font>
+                            </td>
+                            <td>
+                                <img src="./images/jiangxuan_2.jpg">
+                                <p>上海飞三亚五天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+                                <font color="red">&yen; 699</font>
+                            </td>
+                            <td>
+                                <img src="./images/jiangxuan_2.jpg">
+                                <p>上海飞三亚五天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+                                <font color="red">&yen; 699</font>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="./images/jiangxuan_2.jpg">
+                                <p>上海飞三亚五天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+                                <font color="red">&yen; 699</font>
+                            </td>
+                            <td>
+                                <img src="./images/jiangxuan_2.jpg">
+                                <p>上海飞三亚五天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+                                <font color="red">&yen; 699</font>
+                            </td>
+                            <td>
+                                <img src="./images/jiangxuan_2.jpg">
+                                <p>上海飞三亚五天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+                                <font color="red">&yen; 699</font>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!--第9行：跟第5行一样-->
+            <tr>
+                <td>
+                    <img src="./images/icon_7.jpg">
+                    境外游
+                    <hr color="#FFD700">
+                </td>
+            </tr>
+
+            <!--第10行：跟第8行一样-->
+            <tr>
+                <td>
+                    <table align="center" width="100%">
+                        <tr>
+                            <td rowspan="2">
+                                <img src="./images/jiangwai_1.jpg">
+                            </td>
+                            <td>
+                                <img src="./images/jiangxuan_3.jpg">
+                                <p>上海飞三亚五天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+                                <font color="red">&yen; 699</font>
+                            </td>
+                            <td>
+                                <img src="./images/jiangxuan_3.jpg">
+                                <p>上海飞三亚五天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+                                <font color="red">&yen; 699</font>
+                            </td>
+                            <td>
+                                <img src="./images/jiangxuan_3.jpg">
+                                <p>上海飞三亚五天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+                                <font color="red">&yen; 699</font>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="./images/jiangxuan_3.jpg">
+                                <p>上海飞三亚五天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+                                <font color="red">&yen; 699</font>
+                            </td>
+                            <td>
+                                <img src="./images/jiangxuan_3.jpg">
+                                <p>上海飞三亚五天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+                                <font color="red">&yen; 699</font>
+                            </td>
+                            <td>
+                                <img src="./images/jiangxuan_3.jpg">
+                                <p>上海飞三亚五天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+                                <font color="red">&yen; 699</font>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!--第11行：跟第1行一样-->
+            <tr>
+                <td>
+                    <img src="./images/footer_service.png" width="100%">
+                </td>
+            </tr>
+
+            <!--第12行：只有一个单元格，放置一些文本即可-->
+            <tr>
+                <td align="center" bgcolor="#FFD700" height="40">
+                    <font color="gray" size="2">
+                        江苏传智播客教育科技股份有限公司
+                        版权所有Copyright 2006-2018&copy;, All Rights Reserved 苏ICP备16007882
+                    </font>
+                </td>
+            </tr>
+
+        </table>
+
+    </body>
+</html>

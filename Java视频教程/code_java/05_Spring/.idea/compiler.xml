@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day04_code" />
+        <module name="day01_code" />
+        <module name="day02_code" />
+        <module name="day03_code" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Demo02_IOCConceptAndRole" target="9" />
+      <module name="Demo03_SpringIOCBasedXML" target="9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

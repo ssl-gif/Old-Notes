@@ -1,0 +1,35 @@
+<!--
+
+每次点击就会切换图片：
+    如果灯是关的，则切换图片为on.gif
+    如果灯是开的，则切换图片为off.gif
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>案例</title>
+    </head>
+    <body>
+
+        <img id="light" src="./images/off.gif">
+
+        <script>
+
+            var light = document.getElementById("light");
+            var flag = false; // 设置一个标志位，来记录灯是开的(true)、还是灭的(false)
+            light.onclick = function () {
+                if (flag) {  // 如果灯是开的，则切换图片为off.gif
+                    light.src = "./images/off.gif";
+                    flag = false;
+                } else {    // 如果灯是灭的，则切换图片为on.gif
+                    light.src = "./images/on.gif";
+                    flag = true;
+                }
+            }
+
+        </script>
+
+    </body>
+</html>

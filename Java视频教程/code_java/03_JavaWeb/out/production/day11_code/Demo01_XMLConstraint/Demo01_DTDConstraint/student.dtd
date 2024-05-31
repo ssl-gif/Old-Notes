@@ -1,0 +1,6 @@
+<!ELEMENT students (student*)>         <!--约束students标签：里面必须定义0个、多个student标签。*：0个或多个、+：至少有一个、不写：有且仅有一个-->
+<!ELEMENT student (name,age,sex)>      <!--约束student标签：里面必须按顺序定义name、age、sex标签，并且每个标签只能定义一个-->
+<!ELEMENT name (#PCDATA)>              <!--约束name标签：#PCDATA表示标签体内容必须为字符串-->
+<!ELEMENT age (#PCDATA)>               <!--约束age标签：#PCDATA表示标签体内容必须为字符串-->
+<!ELEMENT sex (#PCDATA)>               <!--约束sex标签：#PCDATA表示标签体内容必须为字符串-->
+<!ATTLIST student number ID #REQUIRED> <!--约束student标签的number属性：类型为"ID"，意味着属性值要唯一；默认值为#REQUIRED，表示属性值必须存在-->

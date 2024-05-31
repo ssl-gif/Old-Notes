@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DOM的简单学习</title>
+    </head>
+    <body>
+
+        <img id="light" src="./images/off.gif">
+        <h1 id="title">有了目标就要全力以赴！</h1>
+
+        <script>
+
+            // 修改标签的属性值
+            var light = document.getElementById("light");
+            alert("我要换图片了");
+            light.src = "./images/on.gif";
+
+            // 修改标签体内容
+            var title = document.getElementById("title");
+            alert("我要换文字了");
+            title.innerHTML = "如果你有梦想，就要守护它！";
+
+        </script>
+
+    </body>
+</html>

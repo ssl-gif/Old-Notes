@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>数据类型、变量</title>
+
+        <script>
+
+            // 定义一个变量a，a既可以存储整数，又可以存储字符串
+            var a = 3;
+            document.write(a + "<br/>");
+            a = "abc";
+            document.write(a + "<br/>");
+
+
+            // 定义number类型的变量
+            var num1 = 1;
+            var num2 = 1.5;
+            var num3 = NaN;
+            document.write(num1 + " ---> " + typeof (num1) + "<br/>");
+            document.write(num2 + " ---> " + typeof (num2) + "<br/>");
+            document.write(num3 + " ---> " + typeof (num3) + "<br/>");
+
+            // 定义string类型的变量
+            var str1 = "abc";
+            var str2 = 'abc';
+            document.write(str1 + " ---> " + typeof (str1) + "<br/>");
+            document.write(str2 + " ---> " + typeof (str2) + "<br/>");
+
+            // 定义boolean类型的变量
+            var flag = true;
+            document.write(flag + " ---> " + typeof (flag) + "<br/>");
+
+            // 定义null类型的变量
+            var obj = null;
+            document.write(obj + " ---> " + typeof (obj) + "<br/>"); // 注意：nul类型变量经过typeof运算后返回的是object，这是JavaScript的一个bug(缺陷)
+
+            // 定义undefined类型的变量
+            var obj1 = undefined;
+            var obj2;
+            document.write(obj1 + " ---> " + typeof (obj1) + "<br/>");
+            document.write(obj2 + " ---> " + typeof (obj2) + "<br/>");
+
+        </script>
+
+    </head>
+    <body>
+
+    </body>
+</html>

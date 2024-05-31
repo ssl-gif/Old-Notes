@@ -1,0 +1,136 @@
+<!--
+
+需要实现的功能：
+
+    1.全选、全不选、反选按钮的功能实现
+    2.选中第一个复选框后，下面三个复选框都会被选中；取消第一个复选框后，下面三个复选框都会被取消
+    3.鼠标在表格行上的时候，行就变为粉红色；鼠标移下来就没有颜色
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>表格全选</title>
+
+        <style>
+
+            table {
+                border: 1px solid;
+                width: 500px;
+                margin-left: 30%;
+            }
+
+            td, th {
+                text-align: center;
+                border: 1px solid;
+            }
+
+            div {
+                margin-top: 10px;
+                margin-left: 30%;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <table>
+
+            <caption>学生信息表</caption>
+
+            <tr>
+                <th><input type="checkbox" name="checkbox" id="firstCB"></th>
+                <th>编号</th>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>操作</th>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" name="checkbox"></td>
+                <td>1</td>
+                <td>令狐冲</td>
+                <td>男</td>
+                <td><a href="javascript:void(0);">删除</a></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" name="checkbox"></td>
+                <td>2</td>
+                <td>任我行</td>
+                <td>男</td>
+                <td><a href="javascript:void(0);">删除</a></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" name="checkbox"></td>
+                <td>3</td>
+                <td>岳不群</td>
+                <td>?</td>
+                <td><a href="javascript:void(0);">删除</a></td>
+            </tr>
+
+        </table>
+
+        <div>
+            <input id="selectAll" type="button" value="全选">
+            <input id="unSelectAll" type="button" value="全不选">
+            <input id="selectRev" type="button" value="反选">
+        </div>
+
+        <script>
+
+            // 注意：即使将<script>标签放在下方，一般也会让页面加载完成之后，才执行以下js代码，这是常用操作
+            window.onload = function () {
+
+                // 全选按钮的功能
+                document.getElementById("selectAll").onclick = function () {
+                    var checkboxes = document.getElementsByName("checkbox");
+                    for (var i = 0; i < checkboxes.length; i++) {
+                        checkboxes[i].checked = true;
+                    }
+                }
+
+                // 全不选按钮的功能
+                document.getElementById("unSelectAll").onclick = function () {
+                    var checkboxes = document.getElementsByName("checkbox");
+                    for (var i = 0; i < checkboxes.length; i++) {
+                        checkboxes[i].checked = false;
+                    }
+                }
+
+                // 反选按钮的功能
+                document.getElementById("selectRev").onclick = function () {
+                    var checkboxes = document.getElementsByName("checkbox");
+                    for (var i = 0; i < checkboxes.length; i++) {
+                        checkboxes[i].checked = !(checkboxes[i].checked);
+                    }
+                }
+
+                // 选中第一个复选框后，下面三个复选框都会被选中；取消第一个复选框后，下面三个复选框都会被取消
+                document.getElementById("firstCB").onclick = function () {
+                    var checkboxes = document.getElementsByName("checkbox");
+                    for (var i = 0; i < checkboxes.length; i++) {
+                        checkboxes[i].checked = this.checked; // 在哪个元素对象的事件方法内，this就代表哪个元素。所以这里this就是firstCB元素对象
+                    }
+                }
+
+                // 鼠标在表格行上的时候，行就变为粉红色；鼠标移下来就没有颜色
+                var trs = document.getElementsByTagName("tr");
+                for (var i = 0; i < trs.length; i++) {
+                    trs[i].onmouseover = function () {
+                        this.style.backgroundColor = "pink"; // 这里this就是trs[i]元素对象
+                    }
+                    trs[i].onmouseout = function () {
+                        this.style.backgroundColor = "white";
+                    }
+                }
+
+            }
+
+        </script>
+
+    </body>
+</html>

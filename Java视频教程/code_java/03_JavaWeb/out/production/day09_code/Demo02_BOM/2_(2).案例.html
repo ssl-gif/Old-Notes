@@ -1,0 +1,53 @@
+<!--
+
+分析：
+    1.显示页面效果：使用<p>标签显示文本内容，其中会变化的数字使用<span>标签包裹，方便我们对数字的样式控制、动态变化控制
+    (思考：为什么使用span标签，因为它是行内标签)
+    2.定义一个方法，在方法体内获取span标签并修改其内容。并判断当时间 <= 0时，修改地址栏的URL跳转到首页
+    3.定义一个循环定时器，每隔1秒执行一次该方法
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>案例</title>
+    </head>
+
+    <!--使用css对文本内容进行样式控制-->
+    <style>
+
+        p {
+            text-align: center;
+        }
+
+        span {
+            color: red;
+        }
+
+    </style>
+
+    <body>
+
+        <p>
+            <span id="span">5</span>秒之后，自动跳转到百度首页...
+        </p>
+
+        <script>
+
+            window.setInterval(fun, 1000);
+
+            var second = 5;
+            function fun() {
+                second--;
+                if (second <= 0) {
+                    location.href = "https://www.baidu.com/";
+                }
+                var span = document.getElementById("span");
+                span.innerHTML = second + "";
+            }
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Element元素对象</title>
+    </head>
+    <body>
+
+        <!--Element元素对象的方法：-->
+        <a>百度一下</a>
+        <input id="btn_set" type="button" value="设置属性">
+        <input id="btn_remove" type="button" value="删除属性">
+        <script>
+
+            var btn_set = document.getElementById("btn_set");
+            btn_set.onclick = function () {
+                var element_a = document.getElementsByTagName("a")[0];
+                element_a.setAttribute("href", "https://www.baidu.com"); // 可使用：ele_a.href = "https://www.baidu.com"; 来代替
+            }
+
+            var btn_remove = document.getElementById("btn_remove");
+            btn_remove.onclick = function () {
+                var element_a = document.getElementsByTagName("a")[0];
+                element_a.removeAttribute("href");
+            }
+
+        </script>
+
+
+        <!--Element元素对象的属性：-->
+        <p>文本内容</p>
+        <input id="btn_add" type="button" value="在p标签的文本内容后追加一个文本输入框">
+        <input id="btn_change" type="button" value="改变p标签的样式">
+        <script>
+
+            var btn_add = document.getElementById("btn_add");
+            btn_add.onclick = function () {
+                var element_p = document.getElementsByTagName("p")[0];
+                element_p.innerHTML += "<input>"; // innerHTML属性
+            }
+
+            var btn_change = document.getElementById("btn_change");
+            btn_change.onclick = function () {
+                var element_p = document.getElementsByTagName("p")[0];
+                element_p.style = "border:2px solid red; width:200px; height:200px; font-Size:2px;"; // 标签属性
+
+                // 注意：style属性是一个标签属性，它返回控制该标签的css样式代码。同时为了方便，我们也可以使用 "style.属性名=属性值" 来设置该标签的某个css属性。如下所示：
+                element_p.style.border = "2px solid red";
+                element_p.style.width = "200px";
+                element_p.style.height = "200px";
+                element_p.style.fontSize= "2px";  // 注意：css中的font-Size在此对应的属性为fontSize
+            }
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 复杂类型、集合类型的数据注入 -->
+    <bean id="accountService" class="Demo03_SpringIOCBasedXML.Demo03_SpringIOCDependencyInjection.service.AccountServiceImpl_03">
+        <property name="array">
+            <array>
+                <value>AAA</value>
+                <value>BBB</value>
+            </array>
+        </property>
+        <property name="list">
+            <list>
+                <value>AAA</value>
+                <value>BBB</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>AAA</value>
+                <value>BBB</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="1" value="AAA"></entry>
+                <entry key="2">
+                    <value>BBB</value>
+                </entry>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="1">AAA</prop>
+                <prop key="2">BBB</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>
+
+<!--由 "package Demo03_SpringIOCBasedXML.Demo03_SpringIOCDependencyInjection.controller.Demo03_ComplexCollectionTypeInjection" 所加载-->

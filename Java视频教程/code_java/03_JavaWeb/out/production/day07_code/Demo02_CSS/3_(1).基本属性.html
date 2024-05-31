@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>基本属性</title>
+
+        <style>
+
+            /*文本属性*/
+            .div1 {
+                font-size: 30px;
+                color: #FF0000;
+                text-align: center;
+                line-height: 200px;
+            }
+
+            /*边框属性*/
+            .div2 {
+                border-width: 3px;     /*边框宽度为3像素*/
+                border-style: solid;   /*边框样式为实线*/
+                border-color: red;     /*边框颜色为红色*/
+
+                border: 3px solid red; /*放在一起使用*/
+            }
+
+            /*背景属性*/
+            .div3 {
+                background-image: url("./images/logo.jpg"); /*背景图片的地址*/
+                background-repeat: repeat;                  /*背景图片是否重复平铺(repeat和no-repeat)*/
+                background-position: center;                /*背景图片的位置*/
+
+                background: url("./images/logo.jpg") repeat center; /*放在一起使用*/
+            }
+
+            /*尺寸属性*/
+            .div4 {
+                height: 200px;
+                width: 200px;
+                border: 3px solid red;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div class="div1">迪丽热巴</div>
+
+        <div class="div2">古力娜扎</div>
+
+        <div class="div3">玛尔扎哈</div>
+
+        <div class="div4">乌拉乌拉</div>
+
+    </body>
+</html>

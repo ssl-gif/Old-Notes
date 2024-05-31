@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>鼠标事件</title>
+    </head>
+    <body>
+
+        <!--onmousedown：鼠标在某个元素上按下时触发此事件-->
+        <input id="btn01" type="button" value="button01">
+        <script>
+
+            var btn01 = document.getElementById("btn01");
+            btn01.onmousedown = function () {
+                alert("鼠标按键在button01上被按下了");
+            }
+
+        </script>
+
+
+        <!--onmouseup：鼠标在某个元素上松开时触发此事件-->
+        <input id="btn02" type="button" value="button02">
+        <script>
+
+            var btn02 = document.getElementById("btn02");
+            btn02.onmouseup = function () {
+                alert("鼠标按键在button02上被松开了");
+            }
+
+        </script>
+
+
+        <!--onmouseover：鼠标移到某元素之上时触发此事件-->
+        <input id="btn03" type="button" value="button03">
+        <script>
+
+            var btn03 = document.getElementById("btn03");
+            btn03.onmouseover = function () {
+                alert("鼠标移到button03上了");
+            }
+
+        </script>
+
+
+        <!--onmouseout：鼠标从某元素上移开时触发此事件-->
+        <input id="btn04" type="button" value="button04">
+        <script>
+
+            var btn04 = document.getElementById("btn04");
+            btn04.onmouseout = function () {
+                alert("鼠标从button04上移开了");
+            }
+
+        </script>
+
+
+        <!--onmousemove：鼠标在某个元素上一旦被移动就会触发此事件-->
+        <input id="btn05" type="button" value="button05">
+        <script>
+
+            var btn05 = document.getElementById("btn05");
+            btn05.onmousemove = function () {
+                alert("鼠标在button05上移动了");
+            }
+
+        </script>
+
+    </body>
+</html>

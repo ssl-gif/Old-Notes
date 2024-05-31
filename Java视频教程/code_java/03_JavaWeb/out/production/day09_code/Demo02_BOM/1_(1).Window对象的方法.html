@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Window窗口对象</title>
+    </head>
+    <body>
+
+        <!--与弹出框有关的方法：-->
+        <script>
+
+            alert("Hello Window");
+            window.alert("Hello Window");
+
+            var flag = window.confirm("您确定执行该操作吗？");
+            if (flag) {
+                alert("用户点击了确定按钮");
+            } else {
+                alert("用户点击了取消按钮");
+            }
+
+            var message = window.prompt("请输入信息：");
+            alert("用户输入了：" + message);
+
+        </script>
+
+        <!--与打开、关闭有关的方法：-->
+        <input id="openBtn" type="button" value="打开窗口">
+        <input id="closeBtn" type="button" value="关闭窗口">
+        <script>
+
+            var openBtn = document.getElementById("openBtn");
+            openBtn.onclick = function () {
+                newWindow1 = window.open();                         // 打开空白窗口(返回值在方法体内不加var相当于是全局变量)
+                newWindow2 = window.open("https://www.baidu.com/"); // 打开百度窗口
+            }
+
+            var closeBtn = document.getElementById("closeBtn");
+            closeBtn.onclick = function () {
+                newWindow1.close();
+                newWindow2.close();
+            }
+
+        </script>
+
+        <!--与定时器有关的方法：-->
+        <script>
+
+            var id = window.setTimeout(fun1, 2000); // 将js代码封装为方法，直接传递方法引用即可
+            window.clearTimeout(id);
+
+            var id = window.setInterval(fun2, 2000);
+            window.clearInterval(id);
+
+            function fun1() {
+                alert("定时器1boom~~~");
+            }
+            function fun2() {
+                alert("定时器2boom~~~");
+            }
+        </script>
+
+    </body>
+</html>

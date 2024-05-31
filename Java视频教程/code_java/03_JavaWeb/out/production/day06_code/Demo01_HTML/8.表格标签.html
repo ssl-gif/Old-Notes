@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>表格标签</title>
+    </head>
+    <body>
+
+        <!--定义一个"学生信息表"表格-->
+        <table border="1" width="800" cellpadding="0" cellspacing="0" bgcolor="#7fffd4" align="center">
+
+            <!--表格的头部分-->
+            <thead>
+                <caption>学生信息表</caption>
+                <tr>
+                    <!--
+                    <td>编号</td>
+                    <td>姓名</td>
+                    <td>成绩</td>
+                    -->
+                    <th>编号</th>
+                    <th>姓名</th>
+                    <th>成绩</th>
+                </tr>
+            </thead>
+
+            <!--表格的体部分-->
+            <tbody>
+                <tr bgcolor="#808080" align="center">
+                    <td>1</td>
+                    <td>小龙女</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>杨过</td>
+                    <td>50</td>
+                </tr>
+            </tbody>
+
+            <!--表格的脚部分-->
+            <tfoot>
+                <tr>
+                    <td>3</td>
+                    <td>尹志平</td>
+                    <td>25</td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+
+        <!--单元格的合并-->
+        <table border="1" width="800" cellpadding="0" cellspacing="0" bgcolor="#FF9777" align="center">
+            <tr>
+                <th rowspan="2">编号</th> <!--第一行的第一个单元格占两行，所以第二行只需定义后两个单元格-->
+                <th>姓名</th>
+                <th>成绩</th>
+            </tr>
+            <tr>
+                <td>小龙女</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td colspan="2">杨过</td> <!--第三行的第二个单元格占两列，所以第三行只需定义前两个单元格-->
+            </tr>
+        </table>
+
+
+    </body>
+</html>

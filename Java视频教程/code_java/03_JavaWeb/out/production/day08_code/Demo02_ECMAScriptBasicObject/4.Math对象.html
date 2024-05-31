@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Math对象</title>
+    </head>
+
+    <script>
+
+        // (1).Math对象的属性
+        document.write(Math.PI + "<br/>"); // 3.141592653589793
+        document.write(Math.E + "<br/>");  // 2.718281828459045
+
+        // (2).Math对象的方法
+        document.write(Math.random() + "<br/>");
+        document.write(Math.ceil(3.14) + "<br/>");  // 4
+        document.write(Math.floor(3.14) + "<br/>"); // 3
+        document.write(Math.round(3.14) + "<br/>"); // 3
+
+        /*
+        练习：取[1, 100]之间的随机整数
+        步骤：
+            使用random()方法，得到[0, 1)之间的随机数
+            乘以 100，得到[0, 100)之间的随机数
+            使用floor()方法，舍弃随机数的小数部分，得到[0, 100)之间的随机整数
+            加1，得到[1, 101)之间的随机整数，即：[1, 100]之间的随机整数
+        */
+        var number = Math.floor(Math.random() * 100) + 1;
+        document.write(number);
+
+    </script>
+
+    <body>
+
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>加载事件</title>
+    </head>
+    <body>
+
+        <!--图片加载事件onload-->
+        <img id="img" src="./images/a.jpg">
+        <script>
+            var img = document.getElementById("img");
+            img.onload = function () {
+                alert("图片加载完成了")
+            }
+        </script>
+
+
+        <!--页面加载事件 window.onload 的使用技巧-->
+        <script>
+            window.onload = function () {
+                var input = document.getElementById("input"); // 现在就能获取到input标签了
+                input.placeholder = "请输入信息"
+            }
+        </script>
+        <input id="input" type="text">
+
+    </body>
+</html>

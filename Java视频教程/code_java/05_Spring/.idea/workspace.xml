@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd1d00fc-94ae-45e6-937b-139ce4ea9ed2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/01.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/day01_code/src/main/java/Demo03_SpringIOCBasedXML/Demo01_SpringIOCCoreContainerInterfaceUsage/controller/Demo01_ApplicationContext.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/day01_code/src/main/java/Demo03_SpringIOCBasedXML/Demo01_SpringIOCCoreContainerInterfaceUsage/controller/Demo02_BeanFactory.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../../../../Program_Files/Maven/apache-maven-3.5.2" />
+        <option name="localRepository" value="D:\Program_Files\Maven\apache-maven-3.5.2\local-repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Program_Files\Maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2DlFBVPFhwNSkDEbIbfS3CM4o5Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "9",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Files/02_personal/Notes/Java视频教程/code_java/05_Spring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.38275862",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "fc0c69339cb539384cd7696d29f5382d",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Files\Notes\Java视频教程\code_java\05_Spring\day03_code\src\main\resources" />
+      <recent name="D:\Files\Notes\Java视频教程\code_java\05_Spring\day03_code\src\main\java\Demo02_SpringAOP\Demo05_SpringAOPForTransactionControl" />
+      <recent name="D:\Files\Notes\Java视频教程\code_java\05_Spring\day03_code\src\main\java\Demo02_SpringAOP\Demo04_SpringAOPBasedPureAnnotation" />
+      <recent name="D:\Files\Notes\Java视频教程\code_java\05_Spring\day03_code\src\main\java\Demo02_SpringAOP\Demo03_SpringAOPBasedAnnotation" />
+      <recent name="D:\Files\Notes\Java视频教程\code_java\05_Spring\day03_code\src\main\java\Demo02_SpringAOP\Demo02_SpringAOPAdviceType" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Demo03_Case.Demo01_Proxy" />
+      <recent name="Demo03_Case" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Demo02_SpringAOP.Demo05_SpringAOPForTransactionControl" />
+      <recent name="Demo02_SpringAOP.Demo04_SpringAOPBasedPureAnnotation" />
+      <recent name="Demo02_SpringAOP.Demo03_SpringAOPBasedAnnotation" />
+      <recent name="Demo02_SpringAOP.Demo02_SpringAOPAdviceType" />
+      <recent name="Demo02_SpringAOP.Demo01_SpringAOPBasedXML" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DemoMain.testTransfer">
+    <configuration name="DemoMain.testAccountServiceImpl (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day03_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo02_SpringAOP.Demo02_SpringAOPAdviceType.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Demo02_SpringAOP.Demo02_SpringAOPAdviceType" />
+      <option name="MAIN_CLASS_NAME" value="Demo02_SpringAOP.Demo02_SpringAOPAdviceType.DemoMain" />
+      <option name="METHOD_NAME" value="testAccountServiceImpl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain.testAccountServiceImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day03_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo02_SpringAOP.Demo01_SpringAOPBasedXML.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Demo02_SpringAOP.Demo01_SpringAOPBasedXML" />
+      <option name="MAIN_CLASS_NAME" value="Demo02_SpringAOP.Demo01_SpringAOPBasedXML.DemoMain" />
+      <option name="METHOD_NAME" value="testAccountServiceImpl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain.testSaveAccount (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day03_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo02_SpringAOP.Demo04_SpringAOPBasedPureAnnotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Demo02_SpringAOP.Demo04_SpringAOPBasedPureAnnotation" />
+      <option name="MAIN_CLASS_NAME" value="Demo02_SpringAOP.Demo04_SpringAOPBasedPureAnnotation.DemoMain" />
+      <option name="METHOD_NAME" value="testSaveAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain.testSaveAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day03_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo02_SpringAOP.Demo03_SpringAOPBasedAnnotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Demo02_SpringAOP.Demo03_SpringAOPBasedAnnotation" />
+      <option name="MAIN_CLASS_NAME" value="Demo02_SpringAOP.Demo03_SpringAOPBasedAnnotation.DemoMain" />
+      <option name="METHOD_NAME" value="testSaveAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain.testTransfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day03_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo02_SpringAOP.Demo05_SpringAOPForTransactionControl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Demo02_SpringAOP.Demo05_SpringAOPForTransactionControl" />
+      <option name="MAIN_CLASS_NAME" value="Demo02_SpringAOP.Demo05_SpringAOPForTransactionControl.DemoMain" />
+      <option name="METHOD_NAME" value="testTransfer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DemoMain.testTransfer" />
+        <item itemvalue="JUnit.DemoMain.testSaveAccount" />
+        <item itemvalue="JUnit.DemoMain.testSaveAccount (1)" />
+        <item itemvalue="JUnit.DemoMain.testAccountServiceImpl (1)" />
+        <item itemvalue="JUnit.DemoMain.testAccountServiceImpl" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="showFiles" value="false" />
+    <option name="showDoc" value="false" />
+    <option name="showGraph" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd1d00fc-94ae-45e6-937b-139ce4ea9ed2" name="Changes" comment="" />
+      <created>1661265628688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661265628688</updated>
+      <workItem from="1661265629808" duration="432000" />
+      <workItem from="1661266068842" duration="13711000" />
+      <workItem from="1661650497409" duration="7238000" />
+      <workItem from="1661661112298" duration="2273000" />
+      <workItem from="1668502471526" duration="52000" />
+      <workItem from="1668502543466" duration="596000" />
+      <workItem from="1668520769995" duration="83000" />
+      <workItem from="1668521348474" duration="8000" />
+      <workItem from="1668521726547" duration="48000" />
+      <workItem from="1669255090751" duration="5305000" />
+      <workItem from="1669301809058" duration="693000" />
+      <workItem from="1669302510936" duration="57000" />
+      <workItem from="1669302573735" duration="968000" />
+      <workItem from="1669303584289" duration="22000" />
+      <workItem from="1669304154566" duration="11757000" />
+      <workItem from="1669376616717" duration="2205000" />
+      <workItem from="1669430942450" duration="4437000" />
+      <workItem from="1669474794406" duration="18667000" />
+      <workItem from="1669560164466" duration="8990000" />
+      <workItem from="1669616348423" duration="13696000" />
+      <workItem from="1669702526903" duration="18831000" />
+      <workItem from="1669775990423" duration="680000" />
+      <workItem from="1669819071526" duration="5210000" />
+      <workItem from="1669826474779" duration="3000" />
+      <workItem from="1669861628403" duration="1538000" />
+      <workItem from="1669875430829" duration="1300000" />
+      <workItem from="1669902275433" duration="3465000" />
+      <workItem from="1669947149587" duration="1679000" />
+      <workItem from="1669951109613" duration="1610000" />
+      <workItem from="1669962616623" duration="5252000" />
+      <workItem from="1669970972511" duration="11138000" />
+      <workItem from="1670034127929" duration="12749000" />
+      <workItem from="1670073299003" duration="6648000" />
+      <workItem from="1670081648157" duration="7000" />
+      <workItem from="1670139465537" duration="6516000" />
+      <workItem from="1670150455433" duration="915000" />
+      <workItem from="1670151390449" duration="99000" />
+      <workItem from="1670315304335" duration="94000" />
+      <workItem from="1717070184683" duration="79000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

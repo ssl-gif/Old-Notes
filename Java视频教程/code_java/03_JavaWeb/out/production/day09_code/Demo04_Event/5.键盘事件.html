@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>键盘事件</title>
+    </head>
+    <body>
+
+        <!--onkeydown：某个键盘按键在某个元素上被按下时，会触发此事件-->
+        <input id="input01" type="text">
+        <script>
+
+            var input01 = document.getElementById("input01");
+            input01.onkeydown = function () {
+                alert(event.keyCode + "被按下了");
+            }
+
+        </script>
+
+
+        <!--onkeyup：某个键盘按键在某个元素上被松开时，会触发此事件-->
+        <input id="input02" type="text">
+        <script>
+
+            var input02 = document.getElementById("input02");
+            input02.onkeyup = function () {
+                alert(event.keyCode + "被松开了");
+            }
+
+        </script>
+
+
+        <!--onkeypress：某个键盘按键在某个元素上被按下又被松开后，会触发此事件-->
+        <input id="input03" type="text">
+        <script>
+
+            var input03 = document.getElementById("input03");
+            input03.onkeypress = function () {
+                if(event.keyCode == 13) {
+                    alert("已完成信息的输入"); // 回车键的keyCode为13：常用于输入完信息，按下回车键完成信息输入的操作
+                }
+            }
+
+        </script>
+
+    </body>
+</html>

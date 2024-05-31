@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>day04_code</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>Demo01_Mybatis_LazyLoading</module>
+        <module>Demo02_Mybatis_Cache</module>
+        <module>Demo03_Mybatis_Annotation_CRUD01</module>
+        <module>Demo04_Mybatis_Annotation_CRUD02</module>
+        <module>demo05_Mybatis_Annotation_One2One</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>9</maven.compiler.source>
+        <maven.compiler.target>9</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+
+
+
+</project>

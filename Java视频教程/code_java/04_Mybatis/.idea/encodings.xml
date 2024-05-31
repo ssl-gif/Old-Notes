@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/day01_code/Demo01_Mybatis_XML/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day01_code/Demo01_Mybatis_XML/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day01_code/Demo02_Mybatis_Annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day01_code/Demo02_Mybatis_Annotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day01_code/Demo03_Mybatis_Dao_XML/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day01_code/Demo03_Mybatis_Dao_XML/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day02_code/Demo01_Mybatis_CRUD/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day02_code/Demo01_Mybatis_CRUD/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day02_code/Demo02_Mybatis_Dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day02_code/Demo02_Mybatis_Dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day03_code/Demo01_DynamicSQL/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day03_code/Demo01_DynamicSQL/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day03_code/Demo02_Mybatis_One2One/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day03_code/Demo02_Mybatis_One2One/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day03_code/Demo03_Mybatis_One2Many/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day03_code/Demo03_Mybatis_One2Many/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day03_code/Demo04_Mybatis_Many2Many/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day03_code/Demo04_Mybatis_Many2Many/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day03_code/day03_code/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day03_code/day03_code/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day03_code/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day03_code/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04_code/Demo01_Mybatis_LazyLoading/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04_code/Demo01_Mybatis_LazyLoading/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04_code/Demo02_Mybatis_Cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04_code/Demo02_Mybatis_Cache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04_code/Demo03_Mybatis_Annotation_CRUD01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04_code/Demo03_Mybatis_Annotation_CRUD01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04_code/Demo03_Mybatis_Annotation_CRUD02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04_code/Demo03_Mybatis_Annotation_CRUD02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04_code/Demo04_Mybatis_Annotation_CRUD02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04_code/Demo04_Mybatis_Annotation_CRUD02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04_code/demo05_Mybatis_Annotation_One2One/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04_code/demo05_Mybatis_Annotation_One2One/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04_code/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04_code/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

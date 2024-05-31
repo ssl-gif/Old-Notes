@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>RegExp对象</title>
+    </head>
+
+    <script>
+
+        // 创建正则表达式对象：在字符串中，单词字符只能出现6~12次
+        var reg1 = new RegExp("^\\w{6,12}$"); // 注意：在使用法一创建正则表达式对象时，由于字符串中的反斜杠有转义的作用，字母w会被转义成其它含义，所以需要使用两个反斜杠来代表一个反斜杠
+        var reg2 = /^\w{6,12}$/;
+
+        // 测试字符串是否符合正则表达式的规则
+        var flag1 = reg1.test("qwertyuiop"); // true
+        var flag2 = reg2.test("qwertyuiopqwertyuiop"); // false
+
+    </script>
+
+    <body>
+
+    </body>
+</html>

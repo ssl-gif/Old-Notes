@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Array对象</title>
+    </head>
+
+    <script>
+
+        // (1).数组对象的创建
+        var arr1 = new Array(1, 2, 3);
+
+        var arr2 = new Array(5);
+
+        var arr3 = [1, 2, 3];
+
+        // (2).数组对象的使用    (3).数组对象的属性
+        for (var i = 0; i < arr1.length; i++) {
+            document.write(arr1[i] + "<br/>"); // 1  2  3
+        }
+        for (var i = 0; i < arr2.length; i++) {
+            document.write(arr2[i] + "<br/>"); // undefined  undefined  undefined  undefined  undefined
+        }
+        for (var i = 0; i < arr3.length; i++) {
+            document.write(arr3[i] + "<br/>"); // 1  2  3
+        }
+
+        // (4).数组对象的方法：
+        document.write(arr3.join("..") + "<br/>"); // 1..2..3
+        document.write(arr3.join("---") + "<br/>"); // 1---2---3
+
+        document.write(arr3.push(12, 13, 15) + "<br/>"); // 6
+        for (var i = 0; i < arr3.length; i++) {
+            document.write(arr3[i] + "<br/>"); // 1  2  3  12  13  15
+        }
+
+
+
+        // #.注意：
+
+        // a.在JS中，数组元素的类型是可变的。即：数组中元素的类型可以是不统一的任意类型
+        var arr4 = [1, "abc", true];
+        for (var i = 0; i < arr4.length; i++) {
+            document.write(arr4[i] + "<br/>");
+        }
+
+        // b.在JS中，数组的长度是可变的。即：访问不存在的下标元素时，不会报错，数组会自动扩容
+        var arr5 = new Array(5);
+        arr5[6] = 2;
+        arr5[10] = 3;
+        for (var i = 0; i < arr5.length; i++) {
+            document.write(arr5[i] + "<br/>");
+        }
+
+    </script>
+
+    <body>
+
+    </body>
+</html>

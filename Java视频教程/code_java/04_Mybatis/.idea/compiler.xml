@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Demo02_Mybatis_One2One" />
+        <module name="Demo02_Mybatis_Annotation" />
+        <module name="Demo01_DynamicSQL" />
+        <module name="Demo03_Mybatis_Dao_XML" />
+        <module name="Demo02_Mybatis_Dao" />
+        <module name="Demo03_Mybatis_Annotation_CRUD01" />
+        <module name="Demo01_Mybatis_XML" />
+        <module name="Demo03_Mybatis_One2Many" />
+        <module name="Demo01_Mybatis_LazyLoading" />
+        <module name="demo05_Mybatis_Annotation_One2One" />
+        <module name="Demo04_Mybatis_Annotation_CRUD02" />
+        <module name="Demo04_Mybatis_Many2Many" />
+        <module name="Demo02_Mybatis_Cache" />
+        <module name="Demo01_Mybatis_CRUD" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Demo03_Mybatis_Annotation_CRUD02" target="9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

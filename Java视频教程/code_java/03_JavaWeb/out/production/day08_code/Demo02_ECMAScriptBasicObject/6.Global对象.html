@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Global对象</title>
+    </head>
+
+    <script>
+
+        // (1).URL编码、解码的方法
+        var URL1 = encodeURI("http://www.baidu.com?wd=传智播客");
+        document.write(URL1 + "<br/>"); // http://www.baidu.com?wd=%E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2
+        var str1 = decodeURI(URL1);
+        document.write(str1 + "<br/>"); // http://www.baidu.com?wd=传智播客
+
+        var URL2 = encodeURIComponent("http://www.baidu.com?wd=传智播客");
+        document.write(URL2 + "<br/>"); // http%3A%2F%2Fwww.baidu.com%3Fwd%3D%E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2
+        var str2 = decodeURIComponent(URL2);
+        document.write(str2 + "<br/>"); // http://www.baidu.com?wd=传智播客
+
+        // (2).parseInt()方法
+        var num1 = parseInt("123abc");
+        document.write(num1 + "<br/>"); // 123
+        var num2 = parseInt("abc123abc");
+        document.write(num2 + "<br/>"); // NaN
+
+        // (3).isNaN()方法
+        var a = NaN;
+        document.write(a == NaN + "<br/>"); // false
+        document.write(isNaN(a) + "<br/>"); // true
+
+        // (4).eval()方法
+        var jscode = "document.write(123456);"
+        eval(jscode);
+
+    </script>
+
+    <body>
+
+    </body>
+</html>

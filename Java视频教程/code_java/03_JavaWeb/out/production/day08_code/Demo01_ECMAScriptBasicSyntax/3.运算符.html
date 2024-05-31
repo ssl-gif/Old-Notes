@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>运算符</title>
+    </head>
+
+    <script>
+
+        // (1).一元运算符
+
+        // a.自增运算符++、自减运算符--
+        var a = 3;
+        document.write(++a + "<br/>");
+        document.write(--a + "<br/>");
+
+        // b.正号+、负号-
+        var b = 4;
+        document.write(+b + "<br/>");
+        document.write(-b + "<br/>");
+
+        // #.注意：
+        var num1 = +"123";
+        var num2 = +"abc";
+        document.write(num1 + " ---> " + typeof (num1) + "<br/>"); // string转number
+        document.write(num2 + " ---> " + typeof (num2) + "<br/>");
+        var flag1 = +true;
+        var flag2 = +false;
+        document.write(flag1 + " ---> " + typeof (flag1) + "<br/>"); // boolean转number
+        document.write(flag2 + " ---> " + typeof (flag2) + "<br/>");
+
+        // (2).算术运算符：略
+
+        // (3).赋值运算符：略
+
+        // (4).比较运算符
+        document.write(("abc" > "acd") + "<br/>"); // a.类型相同：直接比较(字符串之间：按照字典顺序按位逐一比较，直到得出大小为止)
+        document.write(("123" == 123) + "<br/>");  // b.类型不同：string先转为number类型，再比较
+        document.write(("123" === 123) + "<br/>"); // c.全等于 ===
+
+        // (5).逻辑运算符
+        var num3 = 0;  var num4 = 56;
+        document.write(!num3 + "<br/>");    document.write(!num4 + "<br/>"); // number转boolean
+        var str1 = "";  var str2 = "abc";
+        document.write(!str1 + "<br/>");    document.write(!str2 + "<br/>"); // string转boolean
+        var obj1 = null;    var obj2 = undefined;
+        document.write(!obj1 + "<br/>");    document.write(!obj2 + "<br/>"); // null、undefined转boolean
+        var date = new Date();
+        document.write(!date + "<br/>");                                     // 对象转boolean
+
+        // (6).三元运算符
+        var flag = (5 > 4) ? true : false;
+        document.write(flag + "<br/>");
+
+    </script>
+
+    <body>
+
+    </body>
+</html>

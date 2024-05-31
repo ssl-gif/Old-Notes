@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>事件的简单学习</title>
+    </head>
+    <body>
+
+        <!--使用法一来绑定单击事件-->
+        <img id="light1" src="./images/off.gif" onclick="fun1()"> <!--用一个方法来封装js代码的时候，事件属性值必须是完整的方法调用语句-->
+        <script>
+            function fun1() {
+                alert("off.gif被点击了");
+            }
+        </script>
+
+
+        <!--使用法二来绑定单击事件-->
+        <img id="light2" src="./images/on.gif">
+        <script>
+            var light2 = document.getElementById("light2");
+            light2.onclick = fun2; // 用一个方法来封装js代码的时候，事件属性值直接设置为方法名即可，不能设置为完整的方法调用：fun2()，因为这代表了直接执行fun2方法
+            function fun2() {
+                alert("on.gif被点击了");
+            }
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="accountService" class="Demo02_SpringAOP.Demo02_SpringAOPAdviceType.service.AccountServiceImpl"></bean>
+
+    <!-- 配置Logger类 -->
+    <bean id="logger" class="Demo02_SpringAOP.Demo02_SpringAOPAdviceType.utils.Logger"></bean>
+
+    <!-- 配置SpringAOP -->
+    <aop:config>
+
+        <!-- 配置切入点表达式 -->
+        <aop:pointcut id="pointcut" expression="execution(* Demo02_SpringAOP.Demo02_SpringAOPAdviceType.service.*.*(..))"></aop:pointcut>
+
+        <!-- 配置切面 -->
+        <aop:aspect id="logAdvice" ref="logger">
+
+<!--            &lt;!&ndash; 配置前置通知：在切入点方法执行之前执行 &ndash;&gt;-->
+<!--            <aop:before method="beforePrintLog" pointcut-ref="pointcut"></aop:before>-->
+
+<!--            &lt;!&ndash; 配置后置通知：在切入点方法正常执行之后再执行，它和异常通知永远只能执行一个 &ndash;&gt;-->
+<!--            <aop:after-returning method="afterReturningPrintLog" pointcut-ref="pointcut"></aop:after-returning>-->
+
+<!--            &lt;!&ndash; 配置异常通知：在切入点方法执行产生异常之后执行，它和后置通知永远只能执行一个 &ndash;&gt;-->
+<!--            <aop:after-throwing method="afterThrowingPrintLog" pointcut-ref="pointcut"></aop:after-throwing>-->
+
+<!--            &lt;!&ndash; 配置异常通知：无论切入点方法是否正常执行它都会在其后面执行 &ndash;&gt;-->
+<!--            <aop:after method="afterPrintLog" pointcut-ref="pointcut"></aop:after>-->
+
+            <!-- 配置环绕通知 -->
+            <aop:around method="aroundPrintLog" pointcut-ref="pointcut"></aop:around>
+
+        </aop:aspect>
+
+    </aop:config>
+
+</beans>
+
+<!-- 由 "package Demo02_SpringAOP.Demo02_SpringAOPAdviceType" 所加载 -->

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../04_Mybatis/day01_code/demo01_mybatis_xml/demo01_mybatis_xml.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Mybatis/day01_code/demo02_mybatis_annotation/demo02_mybatis_annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Mybatis/day02_code/demo01_mybatis_CRUD/demo01_mybatis_CRUD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Mybatis/day02_code/demo02_mybatis_DAO/demo02_mybatis_DAO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Mybatis/day03_code/demo01_mybatis_dynamicSQL/demo01_mybatis_dynamicSQL.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Mybatis/day03_code/demo02_mybatis_one2one/demo02_mybatis_one2one.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Mybatis/day03_code/demo03_mybatis_one2many/demo03_mybatis_one2many.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Mybatis/day03_code/demo04_mybatis_many2many/demo04_mybatis_many2many.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Mybatis/day04_code/demo01_mybatis_lazyLoading/demo01_mybatis_lazyLoading.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Mybatis/day04_code/demo02_mybatis_firstLevelCache/demo02_mybatis_firstLevelCache.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Mybatis/day04_code/demo03_mybatis_secondLevelCache/demo03_mybatis_secondLevelCache.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Mybatis/day04_code/demo04_mybatis_annotationCRUD01/demo04_mybatis_annotationCRUD01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Mybatis/day04_code/demo05_mybatis_annotationCRUD02/demo05_mybatis_annotationCRUD02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Mybatis/day04_code/demo06_mybatis_annotation_one2one/demo06_mybatis_annotation_one2one.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Mybatis/day04_code/demo07_mybatis_annotation_one2many/demo07_mybatis_annotation_one2many.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_Mybatis/day04_code/demo08_mybatis_annotation_secondLevelCache/demo08_mybatis_annotation_secondLevelCache.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/day01_code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo01_Example01/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo02_Example02/Controller/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo02_Example02/Dao/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo02_Example02/Dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo02_Example02/Service/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo02_Example02/Service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo03_Example02_Update01/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo03_Example02_Update01/Controller/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo03_Example02_Update01/Dao/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo03_Example02_Update01/Dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo03_Example02_Update01/Service/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo03_Example02_Update01/Service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo04_Example02_Update02/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo04_Example02_Update02/Controller/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo04_Example02_Update02/Dao/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo04_Example02_Update02/Dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo04_Example02_Update02/Service/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/java/Demo04_Example02_Update02/Service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/src/main/resources/bean.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/target/classes/Demo02_Example02/Dao/IAccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/target/classes/Demo02_Example02/Service/IAccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/target/classes/Demo03_Example02_Update01/IAccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/target/classes/Demo03_Example02_Update01/IAccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/target/classes/Demo04_Example02_Update02/Dao/IAccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_Spring/day01_code/target/classes/Demo04_Example02_Update02/Service/IAccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_JavaWeb/out/artifacts/day12_code_war_exploded/WEB-INF/classes/web/servlet/Demo02_Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb/out/artifacts/day12_code_war_exploded/WEB-INF/classes/web/servlet/Demo02_Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo01_JDBC/demo01_JDBC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo01_JDBC/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo01_JDBC/src/main/java/com/itheima/DemoMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo01_JDBC/target/classes/com/itheima/DemoMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo02_Factory/demo02_Factory.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo02_Factory/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo02_Factory/src/main/java/com/itheima/dao/IAccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo02_Factory/src/main/java/com/itheima/dao/impl/AccountDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo02_Factory/src/main/java/com/itheima/factory/BeanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo02_Factory/src/main/java/com/itheima/service/IAccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo02_Factory/src/main/java/com/itheima/service/impl/AccountServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo02_Factory/src/main/java/com/itheima/ui/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo02_Factory/src/main/resources/bean.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo02_Factory/target/classes/bean.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo02_Factory/target/classes/com/itheima/dao/IAccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo02_Factory/target/classes/com/itheima/dao/impl/AccountDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo02_Factory/target/classes/com/itheima/factory/BeanFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo02_Factory/target/classes/com/itheima/service/IAccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo02_Factory/target/classes/com/itheima/service/impl/AccountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo02_Factory/target/classes/com/itheima/ui/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/demo03_SpringIOC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/src/main/java/com/itheima/dao/IAccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/src/main/java/com/itheima/dao/impl/AccountDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/src/main/java/com/itheima/service/IAccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/src/main/java/com/itheima/service/impl/AccountServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/src/main/java/com/itheima/ui/Demo01_Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/src/main/java/com/itheima/ui/Demo02_Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/src/main/java/com/itheima/ui/Demo03_Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/src/main/resources/bean.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/target/classes/bean.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/target/classes/com/itheima/dao/IAccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/target/classes/com/itheima/dao/impl/AccountDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/target/classes/com/itheima/service/IAccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/target/classes/com/itheima/service/impl/AccountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/target/classes/com/itheima/ui/Demo01_Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/target/classes/com/itheima/ui/Demo02_Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Spring/day01_code/demo03_SpringIOC/target/classes/com/itheima/ui/Demo03_Client.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1YD8n8pgIEvEjlta1YR03BEYn4K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code_java\01_JavaBasic_code\day11_code\src\Demo01_FinalKeyWords\Demo03_FinalVariable" />
+      <recent name="E:\code_ssl\basic_code\day11_code\src\ReferenceTypeUsageSummary" />
+      <recent name="E:\code_ssl\basic_code\day10_code\src\Polymorphic\BenefitsOfPolymorphic" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ReferenceTypeUsageSummary.InterfaceAsMemberVariable" />
+      <recent name="FinalKeyWords" />
+      <recent name="InnerClass.AnonymousInnerClass.AbstractClass" />
+      <recent name="FinalKeywords" />
+      <recent name="InterfaceAndPolymorphicExample" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RedPacketMain">
+    <configuration name="DemoMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03_ReferenceTypeUsageSummary.Demo01_ClassAsMemberVariable.DemoMain" />
+      <module name="day11_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo03_ReferenceTypeUsageSummary.Demo01_ClassAsMemberVariable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03_ReferenceTypeUsageSummary.Demo02_InterfaceAsMemberVariable.DemoMain" />
+      <module name="day11_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo03_ReferenceTypeUsageSummary.Demo02_InterfaceAsMemberVariable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo02_InnerClass.Demo03_AnonymousInnerClass.DemoMain" />
+      <module name="day11_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo02_InnerClass.Demo03_AnonymousInnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo02_InnerClass.Demo01_MemberInnerClass.Demo02_VariableDuplicate.DemoMain" />
+      <module name="day11_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo02_InnerClass.Demo01_MemberInnerClass.Demo01_MemberInnerClassUsages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo02_Polymorphic.Demo01_PolymorphicUsages.DemoMain" />
+      <module name="day10_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo02_Polymorphic.Demo01_PolymorphicUsages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedPacketMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo04_ComprehensiveCase.RedPacketCode.RedPacketMain" />
+      <module name="day11_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo04_ComprehensiveCase.RedPacketCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RedPacketMain" />
+        <item itemvalue="Application.DemoMain (2)" />
+        <item itemvalue="Application.DemoMain (1)" />
+        <item itemvalue="Application.DemoMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="" />
+      <created>1582465968786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582465968786</updated>
+      <workItem from="1582465970966" duration="10890000" />
+      <workItem from="1582536699099" duration="26323000" />
+      <workItem from="1582782355114" duration="8972000" />
+      <workItem from="1582813813625" duration="166000" />
+      <workItem from="1582871901275" duration="12264000" />
+      <workItem from="1582958248736" duration="6059000" />
+      <workItem from="1582985869526" duration="1325000" />
+      <workItem from="1583071110118" duration="205000" />
+      <workItem from="1583120661782" duration="7104000" />
+      <workItem from="1583247960385" duration="126000" />
+      <workItem from="1583248718546" duration="1227000" />
+      <workItem from="1583249983114" duration="50000" />
+      <workItem from="1583250050114" duration="80000" />
+      <workItem from="1583250164215" duration="575000" />
+      <workItem from="1583304323755" duration="1204000" />
+      <workItem from="1583306066884" duration="363000" />
+      <workItem from="1583324507758" duration="27077000" />
+      <workItem from="1583425558403" duration="1930000" />
+      <workItem from="1583472440563" duration="1904000" />
+      <workItem from="1583498334784" duration="4915000" />
+      <workItem from="1583507528836" duration="17000" />
+      <workItem from="1583834452012" duration="4895000" />
+      <workItem from="1583905465633" duration="19617000" />
+      <workItem from="1583984032188" duration="9400000" />
+      <workItem from="1584059311758" duration="19410000" />
+      <workItem from="1584095381728" duration="4370000" />
+      <workItem from="1584338485588" duration="232000" />
+      <workItem from="1584338758547" duration="849000" />
+      <workItem from="1584339630825" duration="40000" />
+      <workItem from="1584348381132" duration="1641000" />
+      <workItem from="1584371230769" duration="762000" />
+      <workItem from="1584414984533" duration="1216000" />
+      <workItem from="1584442406039" duration="755000" />
+      <workItem from="1584514976495" duration="4588000" />
+      <workItem from="1584625583688" duration="3927000" />
+      <workItem from="1584760885247" duration="1746000" />
+      <workItem from="1585054231322" duration="1957000" />
+      <workItem from="1585139276557" duration="608000" />
+      <workItem from="1585287119359" duration="6882000" />
+      <workItem from="1585362495043" duration="12516000" />
+      <workItem from="1585447765134" duration="14061000" />
+      <workItem from="1585555965645" duration="2261000" />
+      <workItem from="1585563026035" duration="1732000" />
+      <workItem from="1585627845001" duration="3230000" />
+      <workItem from="1585643801099" duration="5610000" />
+      <workItem from="1585671296470" duration="123000" />
+      <workItem from="1585728070837" duration="5464000" />
+      <workItem from="1585828511719" duration="9612000" />
+      <workItem from="1585931285750" duration="504000" />
+      <workItem from="1585998201327" duration="10898000" />
+      <workItem from="1586051522095" duration="3191000" />
+      <workItem from="1586065857238" duration="23903000" />
+      <workItem from="1586153962898" duration="8733000" />
+      <workItem from="1586175439510" duration="789000" />
+      <workItem from="1586184801224" duration="2412000" />
+      <workItem from="1586272852111" duration="24000" />
+      <workItem from="1586313488026" duration="1096000" />
+      <workItem from="1586411630974" duration="59000" />
+      <workItem from="1586500960144" duration="63000" />
+      <workItem from="1586520677379" duration="19000" />
+      <workItem from="1586757361764" duration="73000" />
+      <workItem from="1586956015620" duration="72000" />
+      <workItem from="1587302622050" duration="109000" />
+      <workItem from="1587783863788" duration="36000" />
+      <workItem from="1588230350214" duration="9000" />
+      <workItem from="1589080437982" duration="529000" />
+      <workItem from="1589081830670" duration="33000" />
+      <workItem from="1589081875197" duration="4000" />
+      <workItem from="1590745618561" duration="867000" />
+      <workItem from="1591242393169" duration="1970000" />
+      <workItem from="1591322748755" duration="20000" />
+      <workItem from="1591324722430" duration="183000" />
+      <workItem from="1591578806534" duration="26000" />
+      <workItem from="1591789299027" duration="9000" />
+      <workItem from="1591878206282" duration="168000" />
+      <workItem from="1591880546318" duration="9000" />
+      <workItem from="1591881886428" duration="607000" />
+      <workItem from="1591926591068" duration="320000" />
+      <workItem from="1591933546730" duration="11000" />
+      <workItem from="1592461944251" duration="61000" />
+      <workItem from="1593226267557" duration="31000" />
+      <workItem from="1593324637306" duration="10000" />
+      <workItem from="1593420158894" duration="538000" />
+      <workItem from="1594006568859" duration="4000" />
+      <workItem from="1594090409394" duration="24000" />
+      <workItem from="1594262501359" duration="2000" />
+      <workItem from="1594264147798" duration="33000" />
+      <workItem from="1599453645127" duration="59000" />
+      <workItem from="1599454136773" duration="658000" />
+      <workItem from="1623902423249" duration="5009000" />
+      <workItem from="1623912435191" duration="15313000" />
+      <workItem from="1623982649433" duration="6222000" />
+      <workItem from="1623995411339" duration="18000" />
+      <workItem from="1623997812609" duration="353000" />
+      <workItem from="1623998279346" duration="70000" />
+      <workItem from="1624001138524" duration="7401000" />
+      <workItem from="1624024881986" duration="1886000" />
+      <workItem from="1624071591907" duration="4630000" />
+      <workItem from="1624088818549" duration="6353000" />
+      <workItem from="1624153335397" duration="2263000" />
+      <workItem from="1624187467999" duration="5478000" />
+      <workItem from="1624238767318" duration="16749000" />
+      <workItem from="1624369344729" duration="19050000" />
+      <workItem from="1624500595524" duration="10184000" />
+      <workItem from="1624544309354" duration="4736000" />
+      <workItem from="1624688683083" duration="1596000" />
+      <workItem from="1625663022657" duration="257000" />
+      <workItem from="1625755376605" duration="35000" />
+      <workItem from="1625755424003" duration="3000" />
+      <workItem from="1627786176294" duration="12000" />
+      <workItem from="1634050906162" duration="26000" />
+      <workItem from="1634050946791" duration="736000" />
+      <workItem from="1634349090465" duration="308000" />
+      <workItem from="1634351992220" duration="26000" />
+      <workItem from="1638106174052" duration="46000" />
+      <workItem from="1646659977670" duration="16000" />
+      <workItem from="1646835662637" duration="15000" />
+      <workItem from="1646835874775" duration="11000" />
+      <workItem from="1646836336025" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

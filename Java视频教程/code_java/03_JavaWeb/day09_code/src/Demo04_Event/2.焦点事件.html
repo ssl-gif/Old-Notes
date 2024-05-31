@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>焦点事件</title>
+    </head>
+    <body>
+
+        <!--onfocus：元素获得焦点时触发此事件-->
+        <input id="input01" type="text" value="文本输入框01">
+        <script>
+
+            var input01 = document.getElementById("input01");
+            input01.onfocus = function () {
+                input01.value = "文本输入框01获得焦点了";
+            }
+
+        </script>
+
+
+        <!--onblur：元素失去焦点时触发此事件-->
+        <input id="input02" type="text" value="文本输入框02">
+        <script>
+
+            var input02 = document.getElementById("input02");
+            input02.onblur = function () {
+                input02.value = "文本输入框02失去焦点了";
+            }
+
+        </script>
+
+    </body>
+</html>

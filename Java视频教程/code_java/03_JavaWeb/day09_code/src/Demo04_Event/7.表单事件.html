@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>表单事件</title>
+    </head>
+    <body>
+
+        <form action="#" id="form">
+            <input id="username" name="username" placeholder="请输入用户名">
+            <input id="password" name="password" placeholder="请输入密码">
+            <input type="submit" value="提交">
+            <input type="reset" value="重置">
+        </form>
+        <script>
+
+            var form = document.getElementById("form");
+
+            form.onsubmit = function () {
+                alert("提交表单");
+                return false; // 此时表单的数据不会被提交
+            }
+
+            form.onreset = function () {
+                alert("重置表单");
+                return false; // 此时表单的数据不会被重置
+            }
+
+        </script>
+
+    </body>
+</html>

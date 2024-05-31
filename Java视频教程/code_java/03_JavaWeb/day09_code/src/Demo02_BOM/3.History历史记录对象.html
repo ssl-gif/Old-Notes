@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>History历史记录对象</title>
+    </head>
+    <body>
+
+        <!--History对象的方法和属性：-->
+        <input id="btn01" type="button" value="后退">
+        <input id="btn02" type="button" value="前进">
+        <input id="btn03" type="button" value="获取历史记录个数">
+        <script>
+
+            var btn01 = document.getElementById("btn01");
+            btn01.onclick = function () {
+                history.back();    // 可使用history.go(-1);来代替
+            }
+
+            var btn02 = document.getElementById("btn02");
+            btn02.onclick = function () {
+                history.forward(); // 可使用history.go(1);来代替
+            }
+
+            var btn03 = document.getElementById("btn03");
+            btn03.onclick = function () {
+                var length = history.length;
+                alert(length);
+            }
+
+        </script>
+
+    </body>
+</html>

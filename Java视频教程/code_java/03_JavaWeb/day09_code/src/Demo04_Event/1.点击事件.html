@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>点击事件</title>
+    </head>
+    <body>
+
+        <!--onclick：单击事件-->
+        <input id="btn01" type="button" value="button01">
+        <script>
+
+            var btn01 = document.getElementById("btn01");
+            btn01.onclick = function () {
+                alert("button01被单击了");
+            }
+
+        </script>
+
+
+        <!--ondblclick：双击事件-->
+        <input id="btn02" type="button" value="button02">
+        <script>
+
+            var btn02 = document.getElementById("btn02");
+            btn02.ondblclick = function () {
+                alert("button02被双击了");
+            }
+
+        </script>
+
+    </body>
+</html>

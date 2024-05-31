@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>扩展选择器</title>
+
+        <style>
+
+            /*子选择器：只会选择div标签中的p标签，不会选择其他p标签*/
+            div p {
+                color: red;
+            }
+
+            /*父选择器：只会选择含有p标签的div标签，不会选择其他div标签*/
+            div > p {
+                border: 5px solid;
+            }
+
+            /*属性选择器：只会选择type属性为text的input标签、只会选择class属性为p1的p标签*/
+            input[type='text'] {
+                border: 5px solid;
+            }
+            p[class="p1"] {
+                color: red;
+            }
+
+            /*伪类选择器：初始化的状态*/
+            a:link {
+                color: pink;
+            }
+            /*伪类选择器：鼠标悬浮在链接上还没点击的状态*/
+            a:hover {
+                color: green;
+            }
+            /*伪类选择器：鼠标正在点击还没松手的状态*/
+            a:active {
+                color: yellow;
+            }
+            /*伪类选择器：链接被点击后的状态*/
+            a:visited {
+                color: red;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <!--子选择器、父选择器-->
+        <div>
+            <p>迪丽热巴</p>
+            <p>古力娜扎</p>
+        </div>
+        <p>玛尔扎哈</p>
+        <div>乌拉乌拉</div>
+
+
+        <!--属性选择器-->
+        <input type="text">
+        <input type="password">
+        <p class="p1">相信自己！</p>
+        <p class="p2">相信自己！</p>
+
+
+        <!--伪类选择器-->
+        <a href="http://www.baidu.com">百度一下</a>
+
+    </body>
+</html>
